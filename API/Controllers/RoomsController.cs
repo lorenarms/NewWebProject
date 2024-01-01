@@ -2,6 +2,7 @@
 using API.Repositories.Contracts;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Models.DTOs;
 
 namespace API.Controllers
 {
@@ -17,7 +18,7 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Room>>> GetRooms()
+        public async Task<ActionResult<IEnumerable<RoomDTO>>> GetRooms()
         {
             try
             {
@@ -28,7 +29,22 @@ namespace API.Controllers
                     return NotFound();
                 }
 
-                return Ok(rooms);
+                var roomDTOs = new List<RoomDTO>();
+
+                foreach (var room in rooms)
+                {
+                    RoomDTO newRoom = new RoomDTO
+                    {
+                        Name = room.Name,
+                        Description = room.Description
+                    };
+
+                    roomDTOs.Add(newRoom);
+                }
+
+
+
+                return Ok(roomDTOs);
             }
             catch (Exception e)
             {
