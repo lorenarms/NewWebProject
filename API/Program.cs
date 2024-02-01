@@ -3,6 +3,7 @@ using API.Models;
 using API.Repositories;
 using API.Repositories.Contracts;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,13 @@ builder.Services.AddDbContextPool<HomeFurnishingsDbContext>(options =>
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 
 var app = builder.Build();
+
+
+app.UseCors(policy =>
+    policy.WithOrigins("http://localhost:5180", "https://localhost:7059")
+        .AllowAnyMethod()
+        .WithHeaders(HeaderNames.ContentType)
+);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
