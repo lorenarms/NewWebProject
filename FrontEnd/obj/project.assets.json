@@ -1962,11 +1962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj",
       "projectName": "FrontEnd",
-      "projectPath": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj",
+      "projectPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj",
       "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\obj\\",
+      "outputPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",

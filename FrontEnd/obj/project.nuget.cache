@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IKOV/oVsubPKzu1n64cA13DT/agrqK/U5qjWlB8lF4auvc+Qa52z4L3nb1oPgt+kra0/TMVfq0qYXuajVUdzkg==",
+  "dgSpecHash": "yZTvvUzN3hpBQ6okyj4z7iYoorYtfeZ099qAVQkazLA05xhm/zBt/bVYnsssEeDcgeGVltb2w9W0tWGsB2WfXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj",
+  "projectFilePath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lawrence\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "C:\\Users\\Lawrence\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.5\\microsoft.aspnetcore.components.7.0.5.nupkg.sha512",

@@ -3354,11 +3354,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\API\\obj\\",
+      "outputPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3375,8 +3375,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\Models\\Models.csproj"
+            "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\Models.csproj"
             }
           }
         }
