@@ -1,0 +1,33 @@
+﻿@page "/rooms"
+@inherits RoomsBase
+
+
+<h3>Rooms</h3>
+
+@if (Rooms == null)
+{
+    <h3>Loading...</h3>
+}
+else
+{
+    var roomCount = Rooms.Count();
+
+    @if (roomCount > 0)
+    {
+        @foreach (var room in @Rooms)
+        {
+            <div class="card col-6 mb-3">
+                <div class="card-body">
+                    <h2>@room.Name</h2>
+                    <p>@room.Description</p>
+                </div>
+            </div>
+            
+        }
+    }
+}
+
+
+@code {
+
+}

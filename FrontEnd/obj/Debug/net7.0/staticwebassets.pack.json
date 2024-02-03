@@ -1,79 +1,79 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\obj\\Debug\\net7.0\\build-gz\\TdfjTiM+.gz",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\obj\\Debug\\net7.0\\compressed\\mppsc9q62l.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\obj\\Debug\\net7.0\\scopedcss\\bundle\\FrontEnd.styles.css",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\obj\\Debug\\net7.0\\scopedcss\\bundle\\FrontEnd.styles.css",
       "PackagePath": "staticwebassets\\FrontEnd.styles.css"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Lawrence\\Git Repos\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
