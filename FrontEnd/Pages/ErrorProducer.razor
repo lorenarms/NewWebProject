@@ -1,0 +1,11 @@
+﻿<h3>ErrorProducer</h3>
+
+<button @onclick="BreakMe">Break me!</button>
+
+@code {
+
+    private void BreakMe()
+    {
+        throw new Exception("I'm broken :(");
+    }
+}
