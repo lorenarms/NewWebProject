@@ -1,8 +1,4 @@
 is_global = true
-build_property.EnableAotAnalyzer = 
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = false
-build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -13,47 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = FrontEnd
 build_property.RootNamespace = FrontEnd
-build_property.ProjectDir = C:\Users\Lawrence\Git Repos\YouTube\Project_1\NewWebProject\FrontEnd\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\lartl\source\repos\_My Projects\NewWebProjectForYouTube\FrontEnd\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lawrence\Git Repos\YouTube\Project_1\NewWebProject\FrontEnd
+build_property.MSBuildProjectDirectory = C:\Users\lartl\source\repos\_My Projects\NewWebProjectForYouTube\FrontEnd
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lawrence/Git Repos/YouTube/Project_1/NewWebProject/FrontEnd/App.razor]
+[C:/Users/lartl/source/repos/_My Projects/NewWebProjectForYouTube/FrontEnd/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lawrence/Git Repos/YouTube/Project_1/NewWebProject/FrontEnd/Pages/Counter.razor]
+[C:/Users/lartl/source/repos/_My Projects/NewWebProjectForYouTube/FrontEnd/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lawrence/Git Repos/YouTube/Project_1/NewWebProject/FrontEnd/Pages/FetchData.razor]
+[C:/Users/lartl/source/repos/_My Projects/NewWebProjectForYouTube/FrontEnd/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lawrence/Git Repos/YouTube/Project_1/NewWebProject/FrontEnd/Pages/Index.razor]
+[C:/Users/lartl/source/repos/_My Projects/NewWebProjectForYouTube/FrontEnd/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lawrence/Git Repos/YouTube/Project_1/NewWebProject/FrontEnd/Pages/Rooms/Rooms.razor]
+[C:/Users/lartl/source/repos/_My Projects/NewWebProjectForYouTube/FrontEnd/Pages/Rooms/Rooms.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcUm9vbXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lawrence/Git Repos/YouTube/Project_1/NewWebProject/FrontEnd/Shared/SurveyPrompt.razor]
+[C:/Users/lartl/source/repos/_My Projects/NewWebProjectForYouTube/FrontEnd/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lawrence/Git Repos/YouTube/Project_1/NewWebProject/FrontEnd/_Imports.razor]
+[C:/Users/lartl/source/repos/_My Projects/NewWebProjectForYouTube/FrontEnd/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lawrence/Git Repos/YouTube/Project_1/NewWebProject/FrontEnd/Shared/MainLayout.razor]
+[C:/Users/lartl/source/repos/_My Projects/NewWebProjectForYouTube/FrontEnd/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4arn68henf
 
-[C:/Users/Lawrence/Git Repos/YouTube/Project_1/NewWebProject/FrontEnd/Shared/NavMenu.razor]
+[C:/Users/lartl/source/repos/_My Projects/NewWebProjectForYouTube/FrontEnd/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-bdi9gfu4p5

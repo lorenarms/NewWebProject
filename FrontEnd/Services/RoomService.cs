@@ -18,7 +18,16 @@ namespace FrontEnd.Services
         {
             var response = await _httpClient.GetAsync($"/api/Rooms");
 
-            return await response.Content.ReadFromJsonAsync<IEnumerable<RoomDTO>>();
+            if (response.IsSuccessStatusCode)
+            {
+                if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
+                {
+                    return Enumerable.Empty<RoomDTO>();
+                }
+                return await response.Content.ReadFromJsonAsync<IEnumerable<RoomDTO>>();
+            }
+            var message = await response.Content.ReadAsStringAsync();
+            throw new Exception(message);
         }
     }
 }

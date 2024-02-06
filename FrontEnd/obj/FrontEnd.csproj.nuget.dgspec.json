@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj": {}
+    "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\FrontEnd\\FrontEnd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj": {
+    "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\FrontEnd\\FrontEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj",
+        "projectUniqueName": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\FrontEnd\\FrontEnd.csproj",
         "projectName": "FrontEnd",
-        "projectPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\FrontEnd.csproj",
-        "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\FrontEnd\\obj\\",
+        "projectPath": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\FrontEnd\\FrontEnd.csproj",
+        "packagesPath": "C:\\Users\\lartl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\FrontEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lartl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\Models.csproj"
+              "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\Models\\Models.csproj"
               }
             }
           }
@@ -52,24 +52,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
-            },
-            "Microsoft.NET.ILLink.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NET.Sdk.WebAssembly.Pack": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.0, )",
-              "autoReferenced": true
             }
           },
           "imports": [
@@ -86,7 +68,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.14, 7.0.14]"
+              "version": "[7.0.12, 7.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -94,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -103,17 +85,17 @@
         }
       }
     },
-    "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\Models.csproj": {
+    "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\obj\\",
+        "projectPath": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\lartl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lartl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -3349,19 +3349,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lawrence\\.nuget\\packages\\": {}
+    "C:\\Users\\lartl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\API\\obj\\",
+      "projectPath": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\lartl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lartl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3375,8 +3375,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Lawrence\\Git Repos\\YouTube\\Project_1\\NewWebProject\\Models\\Models.csproj"
+            "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\lartl\\source\\repos\\_My Projects\\NewWebProjectForYouTube\\Models\\Models.csproj"
             }
           }
         }
@@ -3429,7 +3429,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

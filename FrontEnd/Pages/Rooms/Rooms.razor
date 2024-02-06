@@ -2,25 +2,32 @@
 @inherits RoomsBase
 
 
+
+
+@{
 <h3>Rooms</h3>
+    
+var roomCount = Rooms.Count();
 
-
-@if (Rooms == null)
-{
-    <h3>Loading...</h3>
-}
-else
-{
-    var roomCount = Rooms.Count();
-
-    @if (roomCount > 0)
+    if (roomCount > 0)
     {
-        @foreach (var room in @Rooms)
+        foreach (var room in @Rooms)
         {
-            <h2>@room.Name</h2>
-            <p>@room.Description</p>
+            <div class="col-md-3 mb-2">
+                <div class="card">
+                    <div class="accordion-collapse">
+                        <h2>@room.Name</h2>
+                        <p>@room.Description</p>
+                    </div>
+                </div>
+            </div>
         }
     }
+    else
+    {
+        <h4>No rooms to show!</h4>
+    }
+    
     
 }
 
