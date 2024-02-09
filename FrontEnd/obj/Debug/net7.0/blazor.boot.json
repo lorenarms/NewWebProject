@@ -1,7 +1,7 @@
 {
   "entryAssembly": "FrontEnd",
   "resources": {
-    "hash": "sha256-6fFeSSmVo6I8/Y5UQAZKCVRyaoh94AuGrDR3mjoI8Rw=",
+    "hash": "sha256-Hd5yuhRAeue8wVLTnz5/LyH+GbesF3FVXPgQycQo5xI=",
     "runtime": {
       "dotnet.7.0.14.593t9m10hw.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
@@ -203,11 +203,11 @@
       "netstandard.dll": "sha256-TztlSRjADgiEABbiAMdWZpHrUVd8wnRtQRAvlwmRP/4=",
       "System.Private.CoreLib.dll": "sha256-BAhrZ8Zg3cJKQipxdzqQo+9jtPkOkRx1ou3oIhDohtk=",
       "Models.dll": "sha256-xEf2dpbD5qjOwC0sc1dcC3VbJUDhCUOx0Z/o3QHrJGU=",
-      "FrontEnd.dll": "sha256-ncy4NT5uvJ7rQubWbxWycWts3MoJ3o637nZ4dYZuMFA="
+      "FrontEnd.dll": "sha256-YHPqr7lWxkmOVRZHFRCcckjcHi0wrOwhCdAAka27DWc="
     },
     "pdb": {
       "Models.pdb": "sha256-I30CYvZliRLzFuOWVTpi69HBkOfMxih7F1CmM0Pqq6E=",
-      "FrontEnd.pdb": "sha256-aSfIxVESawqT6vKImlwHuJh345dZ+riblXFEoZLgR/U="
+      "FrontEnd.pdb": "sha256-AmhqWdqxRX8HRIg9cSmhwmhDy/riKanOiA37Lx8rlA8="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
