@@ -8,11 +8,17 @@ namespace FrontEnd.Pages.Rooms
     {
         [Inject]
         IRoomService RoomService { get; set; }
-        public IEnumerable<RoomDTO> Rooms { get; set; } = Enumerable.Empty<RoomDTO>();
+
+        public IEnumerable<RoomDTO> Rooms { get; set; }
+        public string Message { get; set; } = string.Empty;
 
         protected override async Task OnInitializedAsync()
         {
             Rooms = await RoomService.GetRooms();
+            if (Equals(Rooms, Enumerable.Empty<RoomDTO>()))
+            {
+                Message = RoomService.GetMessage();
+            }
         }
     }
 }
