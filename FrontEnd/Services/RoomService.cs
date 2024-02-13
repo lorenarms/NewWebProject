@@ -8,7 +8,7 @@ namespace FrontEnd.Services
     {
         private readonly HttpClient _httpClient;
         private readonly ILogger<RoomService> _logger;
-        public string Message { get; set; } = String.Empty;
+        public string ErrorMessage { get; set; } = String.Empty;
 
         public RoomService(HttpClient httpClient, ILogger<RoomService> logger)
         {
@@ -17,10 +17,9 @@ namespace FrontEnd.Services
         }
         public async Task<IEnumerable<RoomDTO>> GetRooms()
         {
-            HttpResponseMessage response = new HttpResponseMessage();
             try
             {
-                response = await _httpClient.GetAsync($"/api/Roomsg");
+                var response = await _httpClient.GetAsync($"/api/Roomsg");
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -34,20 +33,20 @@ namespace FrontEnd.Services
 
                 if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
                 {
-                    throw new Exception("Content Not Found");
+                    throw new Exception("Error: " + response.StatusCode.ToString());
                 }
             }
             catch (Exception ex)
             {
-                Message = "************ " + ex.Message + " ************";
-                _logger.LogError(Message);
+                ErrorMessage = ex.Message;
+                _logger.LogError(ErrorMessage);
             }
             return Enumerable.Empty<RoomDTO>();
         }
 
         public string GetMessage()
         {
-            return Message;
+            return ErrorMessage;
         }
     }
 }

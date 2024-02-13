@@ -10,15 +10,26 @@ namespace FrontEnd.Pages.Rooms
         IRoomService RoomService { get; set; }
 
         public IEnumerable<RoomDTO> Rooms { get; set; }
+        public bool LoadFailed = false;
         public string Message { get; set; } = string.Empty;
 
         protected override async Task OnInitializedAsync()
         {
-            Rooms = await RoomService.GetRooms();
-            if (Equals(Rooms, Enumerable.Empty<RoomDTO>()))
+            try
             {
-                Message = RoomService.GetMessage();
+                Rooms = await RoomService.GetRooms();
+                if (Equals(Rooms, Enumerable.Empty<RoomDTO>()))
+                {
+                    throw new Exception("Load failed!");
+                }
             }
+            catch (Exception ex)
+            {
+                LoadFailed = true;
+                
+                Message = $"{RoomService.GetMessage()} - {ex.Message}";
+            }
+            
         }
     }
 }

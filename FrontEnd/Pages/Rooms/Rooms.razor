@@ -4,7 +4,12 @@
 
 
 <h3>Rooms</h3>
-<h2>@Message</h2>
+
+@if (@LoadFailed)
+{
+    <h4 class="text-danger fw-bold">@Message</h4>
+}
+
 
 @if (Rooms == null)
 {
