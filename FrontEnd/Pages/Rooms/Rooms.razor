@@ -7,7 +7,9 @@
 
 @if (@LoadFailed)
 {
-    <h4 class="text-danger fw-bold">@Message</h4>
+    <div>
+        <h4 class="text-border text-color fw-bold">@Message</h4>
+    </div>
 }
 
 
@@ -33,6 +35,22 @@ else
         }
     }
 }
+
+<style>
+   
+    .text-border {
+        border: 2px solid red;
+        /* border-radius: 5px; */
+        background: red;
+        padding: 10px 20px;
+        display: inline-block;
+        
+    }
+    .text-color {
+        color: white;
+    }
+
+</style>
 
 
 @code {
