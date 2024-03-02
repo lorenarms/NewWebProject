@@ -18,5 +18,11 @@ namespace API.Repositories
             var rooms = await _context.Rooms.ToListAsync();
             return rooms;
         }
+
+        public async Task<IEnumerable<Room>> GetAllRoomsSp()
+        {
+            var rooms = await _context.Rooms.FromSqlRaw($"sp_GetAllRooms").ToListAsync();
+            return rooms;
+        }
     }
 }

@@ -52,5 +52,12 @@ namespace API.Controllers
                 throw;
             }
         }
+
+        [HttpGet("getRooms_sp")]
+        public async Task<ActionResult<IEnumerable<Room>>> GetRoomsSp()
+        {
+            var rooms = await _roomRepository.GetAllRoomsSp();
+            return Ok(rooms);
+        }
     }
 }
